@@ -3,13 +3,13 @@
 int main(void)
 {
     char c;
-    int i;
 
-    printf("input a number :");
+    printf("input a character :");
     scanf("%c", &c);
 
-    i = c - '0';
-    printf("The input number is %i\n", i);
+    c = c + 1;
+
+    printf("The next character is %c (%i)\n", c, c);
 
     return 0;
 }
